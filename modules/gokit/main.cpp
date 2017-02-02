@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "gokit.h"
+#include "main.h"
 
 // 获取指定开关的状态
 char gokit_keydown(int key, int short_press) {

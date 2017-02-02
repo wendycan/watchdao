@@ -13,3 +13,5 @@
 
 char gokit_keydown(int key, int short_press);
 unsigned long gokit_time_s();
+
+void set_led_color(byte red, byte green, byte blue);
