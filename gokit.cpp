@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "gokit.h"
 
-// 获取特定开关的状态
+// 获取指定开关的状态
 char gokit_keydown(int key, int short_press) {
     int unsigned long keep_time = 0;
     if( digitalRead(key) == LOW) {
